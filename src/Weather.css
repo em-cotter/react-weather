@@ -1,0 +1,11 @@
+Row {
+  text-align: center;
+}
+Col {
+  list-style: none;
+  padding: 5px;
+  padding-left: 40px;
+  color: #2b394f;
+  font-weight: 400;
+  text-align: left;
+}

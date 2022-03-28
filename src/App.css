@@ -1,38 +1,92 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  background: #dddddd;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #546d8c;
+  width: 110px;
+  height: 110px;
+  margin: 20px auto;
+  margin-bottom: 0;
+  padding-top: 30px;
+  font-weight: 600;
+  font-size: 40px;
+}
+h2 {
+  text-align: center;
+  padding-top: 2px;
+  font-size: 40px;
+  opacity: 0.6;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+ul {
+  text-align: center;
+}
+li {
+  list-style: none;
+  padding: 5px;
+  padding-left: 40px;
+  color: #2b394f;
+  font-weight: 400;
+  text-align: left;
+}
+a {
+  text-decoration: none;
+  color: #6e88a1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+  margin-bottom: 0px;
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+  background: linear-gradient(
+    180.3deg,
+    rgb(221, 221, 221) 5.5%,
+    rgb(110, 136, 161) 90.2%
+  );
 }
 
-.App-link {
-  color: #61dafb;
+.time {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-size: 19px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weekday {
+  font-weight: bold;
+  color: #dddddd;
+  font-size: 19px;
+}
+.frame {
+  border: 1px solid #546d8c;
+  border-radius: 4px;
+  padding: 20px, 5px;
+  font-weight: 400;
+}
+.source {
+  max-width: 600px;
+  margin: 0px auto;
+  margin-bottom: 40px;
+  font-size: small;
+  padding-top: 2px;
+  color: #2b394f;
+}
+.gitlink {
+  color: #6e88a1;
+}
+.gitlink:hover {
+  color: #2b394f;
 }

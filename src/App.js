@@ -1,23 +1,34 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Weather from './Weather.js'
+import Searchform from './Searchform.js';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+    
+       <div className="App">
+      <div class="wrapper">
+        <Searchform />
+
+        <h1 id="current-temp">-5°C</h1>
+        <h2 id="changeCity">Cologne</h2>
+
+        <div className="time">Thursday 12:15</div>
+        <Weather />
+      </div>
+
+      <div className="source">
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/em-cotter/Final-Weather-App"
           target="_blank"
-          rel="noopener noreferrer"
+          class="gitlink"
         >
-          Learn React
+          Open-source code
         </a>
-      </header>
+        , by Emma Cotter
+      </div>
+      
+     
     </div>
   );
 }

@@ -1,0 +1,15 @@
+form {
+  text-align: center;
+  font-size: 20px;
+}
+button.location {
+  background-color: #6e88a1;
+  border-color: #fff;
+  transition-duration: 0.4s;
+}
+
+button.search {
+  background-color: #6e88a1;
+  border-color: #fff;
+  transition-duration: 0.4s;
+}
