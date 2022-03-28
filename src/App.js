@@ -5,8 +5,7 @@ import Weather from './Weather.js'
 import Searchform from './Searchform.js';
 function App() {
   return (
-    
-       <div className="App">
+    <div className="App">
       <div class="wrapper">
         <Searchform />
 
@@ -19,7 +18,7 @@ function App() {
 
       <div className="source">
         <a
-          href="https://github.com/em-cotter/Final-Weather-App"
+          href="https://github.com/em-cotter/react-weather"
           target="_blank"
           rel="noreferrer"
           class="gitlink"
@@ -28,8 +27,6 @@ function App() {
         </a>
         , by Emma Cotter
       </div>
-      
-     
     </div>
   );
 }
