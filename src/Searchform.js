@@ -6,8 +6,7 @@ export default function Searchform(){
       <div>
         <form>
           <Form.Group
-            className="searchbar"
-            className="mb-3"
+            className="searchbar mb-3"
             controlId="formBasicEmail"
           >
             <Form.Label>Email address</Form.Label>
