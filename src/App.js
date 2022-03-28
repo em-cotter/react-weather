@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 import Weather from './Weather.js'
@@ -21,6 +21,7 @@ function App() {
         <a
           href="https://github.com/em-cotter/Final-Weather-App"
           target="_blank"
+          rel="noreferrer"
           class="gitlink"
         >
           Open-source code
